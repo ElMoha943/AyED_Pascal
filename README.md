@@ -4,7 +4,8 @@ Ejercicios de pascal de UTN FRRO
 
 ### Template
 
-```Program EJ6; //Nombre del programa
+```Pascal
+Program EJ6; //Nombre del programa
 Uses crt; //Libreria
 
 Const //Variables constantes
@@ -33,4 +34,5 @@ begin //Las estructuras se encierran entre begin y end ( {} )
      End;
      writeln(,' alumnos obtuvieron nota superior al promedio')
      readkey(); //getch(), espera a que se pulse una tecla para dejar leer la consola.
-end.```
+end.
+```
