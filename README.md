@@ -1,6 +1,7 @@
 # AyED_Pascal
 Ejercicios de pascal de UTN FRRO
 
+### [Guia para tener de referencia](https://www.tutorialspoint.com/pascal/index.htm)
 
 ### Template
 
