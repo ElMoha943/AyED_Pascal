@@ -36,3 +36,36 @@ begin //Las estructuras se encierran entre begin y end ( {} )
      readkey(); //getch(), espera a que se pulse una tecla para dejar leer la consola.
 end.
 ```
+
+### Operators
+
+Operator | Operation | Operands | Result
+------------ | ------------- | ------------ | -------------
+'+' | Addition or unary positive | real or integer | real or integer
+'-' | Subtraction or unary negative | real or integer | real or integer
+'*' | Multiplication | real or integer | real or integer
+'/' | Real division | real or integer | real
+'div' | Integer division | integer | integer
+'mod' | Modulus (remainder division) | integer | integer
+
+### Standard Functions
+
+Function | Description | Argument type | Return type
+------------ | ------------- | ------------ | -------------
+abs | absolute value | real or integer | same as argument
+arctan | arctan in radians | real or integer | real
+cos | cosine of a radian measure | real or integer | real
+exp | e to the given power | real or integer | real
+ln | natural logarithm | real or integer | real
+round | round to nearest integer | real | integer
+sin | sin of a radian measure | real or integer | real
+sqr | square (power 2) | real or integer | same as argument
+sqrt | square root (power 1/2) | real or integer | real
+trunc | truncate (round down) | real or integer | integer
+
+Function | Description | Argument type | Return type
+------------ | ------------- | ------------ | -------------
+chr | character with given ASCII value | integer | char
+ord | ordinal value | integer or char | integer
+pred | predecessor | integer or char | same as argument type
+succ | successor | integer or char | same as argument type
