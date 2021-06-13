@@ -1,6 +1,9 @@
 Program P3_EJ1;
 Uses crt;
 
+//Ingresar 20 elementos de tipo real en un arreglo y realizar la suma de los mismos.
+//Utilizar los procedimientos CARGA Y SUMA
+
 Type
 nums = array[0..25] of real;
 
